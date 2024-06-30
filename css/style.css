@@ -1,0 +1,43 @@
+
+/* *{
+    cursor: none;
+}
+img{
+    width: 60px;
+    position: absolute;
+} */
+.imgcontainer{
+    cursor: pointer;
+}
+.imgcaption{
+    background-color: #ffff;
+    position: absolute;
+    width: 80%;
+    padding: 10px;
+    left: 10%;
+    bottom: 30px;
+    text-align: center;
+
+}
+#boxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.boxlight{
+    width: 500px;
+    height: 80vh;
+    background-image: url(../images/team-1.jpg);
+    background-size: cover;
+    
+}
+.boxlight i{
+    cursor: pointer;
+}
